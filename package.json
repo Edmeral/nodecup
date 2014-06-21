@@ -1,6 +1,6 @@
 {
   "name": "nodecup",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A command line tool to follow the world cup results. Inspired by https://github.com/fatiherikli/worldcup",
   "main": "app",
   "preferGlobal": "true",
