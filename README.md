@@ -2,7 +2,7 @@ World cup results in the command line. written in Node.JS.
 
 ![Today](http://i.imgur.com/MABYicL.png)
 
-This tool is inspired this [python version](https://github.com/fatiherikli/worldcup) and couldn't be done without [Soccer for Good API](worldcup.sfg.io).
+This tool is inspired this [python version](https://github.com/fatiherikli/worldcup) and couldn't be done without [Soccer for Good API](http://worldcup.sfg.io).
 
 ## How to Install
 
