@@ -74,7 +74,12 @@ request(url, function(error, response, body) {
 				if (status == 'completed') {
 					console.log((whitespace + home + whitespace1 + score + whitespace2 + away).bold.green);
 					printProgress(1);
-					console.log((whitespace + 'Played ' + time + '. ' + matchs[i]['winner'] + ' won!').bold);
+					var winner = matchs[i]['winner'];
+					if (winner == 'draw')
+						console.log((whitespace + 'Played ' + time + '. ' + 'It was a ' + winner.toLowerCase() + '!').bold);
+					else
+						console.log((whitespace + 'Played ' + time + '. ' + winner + ' won!').bold);
+					
 				} else if (status == 'in progress') {
 					console.log((whitespace + home + whitespace1 + score + whitespace2 + away).bold.green);
 
