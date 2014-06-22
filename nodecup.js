@@ -5,7 +5,7 @@ var colors = require('colors');
 var moment = require('moment');
 
 var SCREEN_WIDTH = 68;
-var whitespace = '      '; // I choose this to center the content in terminal resolution with of 80 charahter
+var whitespace = '      '; // I choose this to center the content in a terminal resolution width of 80 character
 
 function printProgress(ratio) {
 
