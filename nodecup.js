@@ -75,7 +75,7 @@ request(url, function(error, response, body) {
 					console.log((whitespace + home + whitespace1 + score + whitespace2 + away).bold.green);
 					printProgress(1);
 					var winner = matchs[i]['winner'];
-					if (winner == 'draw')
+					if (winner == 'Draw')
 						console.log((whitespace + 'Played ' + time + '. ' + 'It was a ' + winner.toLowerCase() + '!').bold);
 					else
 						console.log((whitespace + 'Played ' + time + '. ' + winner + ' won!').bold);
