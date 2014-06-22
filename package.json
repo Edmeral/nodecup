@@ -13,6 +13,11 @@
     "cli"
   ],
   "author": "Aissam BELHACHMI <edmeral.aissam@gmail.com>",
+  "homepage": "https://github.com/Edmeral/nodecup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Edmeral/nodecup"
+  },
   "license": "MIT",
   "dependencies": {
     "colors": "^0.6.2",
