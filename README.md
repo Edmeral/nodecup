@@ -48,3 +48,20 @@ nodecup
 will show all the matches of the world cup:
 
 ![all](http://i.imgur.com/p8El6Kc.png)
+
+
+###For Windows:
+Install with the instructions above. To run, create ```index.js``` file and include the code below:
+```javascript
+require("nodecup");
+```
+
+Open CMD in the same path as ```index.js``` from above. Type type the following to obtain today's results:
+```sh
+node index.js today
+```
+
+You can now use instructions from before but instead of ```nodecup```, use ```node index.js```.
+
+
+
